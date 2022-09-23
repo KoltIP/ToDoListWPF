@@ -36,6 +36,7 @@ namespace ToDoListWPF.Services
                     }
                 };
             }
+            //
             using (var reader = File.OpenText(Path))
             { 
                 var fileText = reader.ReadToEnd();
